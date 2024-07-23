@@ -4,11 +4,9 @@
   <!-- ![Name](urlToShieldHere)(urlToGithubHere) -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributors](https://img.shields.io/github/contributors/404pandas/Parsemon-Full-Stack.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/Parsemon-Full-Stack/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/404pandas/Parsemon-Full-Stack.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/Parsemon-Full-Stack/network/members)
-[![Stargazers](https://img.shields.io/github/stars/404pandas/Parsemon-Full-Stack.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/Parsemon-Full-Stack/stargazers)
-[![Issues](https://img.shields.io/github/issues/404pandas/Parsemon-Full-Stack.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/Parsemon-Full-Stack/issues)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/404pandas)
+[![Contributors](https://img.shields.io/github/contributors/AllredW/readme-generator.svg?style=plastic&logo=appveyor)](https://github.com/AllredW/readme-generator/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/AllredW/readme-generator.svg?style=plastic&logo=appveyor)](https://github.com/AllredW/readme-generator/issues)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/in/william-allred-6a2a522b3/)
 
 </div>
 
@@ -16,15 +14,14 @@
 
   <p align="center">
     This project generates a README file for the user, utilizing Javascript and modules from NPM. The user is prompted to provide information about their project, which is used to pupulate the file that is generated.<br />
-    <a href="https://github.com/404pandas/Parsemon-Full-Stack"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AllredW/readme-generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <!-- TODO- add deployed link -->
-    <a href="https://github.com/404pandas/Parsemon-Full-Stack">View Demo(Coming Soon)</a>
     ·
-    <a href="https://github.com/404pandas/Parsemon-Full-Stack/issues">Report Bug</a>
+    <a href="https://github.com/AllredW/readme-generator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/404pandas/Parsemon-Full-Stack/issues">Request Feature</a>
+    <a href="https://github.com/AllredW/readme-generator/issues">Request Feature</a>
 
   </p>
 </div>
@@ -69,209 +66,36 @@ This project was built with vanilla JS/CSS/HTML, materialize css, bcrypt, socket
 <div align="center">
 
 [![Javascript](https://img.shields.io/badge/Language-JavaScript-ff0000?style=plastic&logo=JavaScript&logoWidth=10)](https://javascript.info/)
-[![HTML](https://img.shields.io/badge/Language-HTML-ff8000?style=plastic&logo=HTML5&logoWidth=10)](https://html.com/)
-[![CSS](https://img.shields.io/badge/Language-CSS-ffff00?style=plastic&logo=HTML5&logoWidth=10)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Materialize](https://img.shields.io/badge/Framework-Materialize-80ff00?style=plastic&logo=jQuery&logoWidth=10)](https://materializecss.com/)
 
-<!-- bcrypt -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- connect-session-sequelize -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- dotenv -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- express -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- express-handlebars -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- express-session -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- pg -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- sequelize -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- eslint -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- eslint-config-prettier -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- nodemon -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- prettier -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- socket.io -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- draggable.js -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- GSAP -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-
-<!-- Render -->
-
-[![Name](https://img.shields.io/badge/Type-Name-80ff00?style=plastic&logo=LogoName&logoWidth=10)](https://librarydocs.com/)
-[![VS Code](https://img.shields.io/badge/IDE-VSCode-0000ff?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
-[![PokemonTCGApi](https://img.shields.io/badge/API-PokemonTCG-8000ff?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://pokemontcg.io/)
-[![jQuery](https://img.shields.io/badge/API-jQuery-ff00ff?style=plastic&logo=jQuery&logoWidth=10)](https://jquery.com/)
+![Static Badge](https://img.shields.io/badge/NPM-Inquirer-blue)
 
 </div>
 
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-Once completely built, this application will function as a deployed app on Render
-
-### Local Installation / Testing
+### Local Installation / Usage
 
 1. Clone the rep
 
 ```
-git clone https://github.com/404pandas/Parsemon-Full-Stack.git
+git clone https://github.com/AllredW/readme-generator.git
 ```
 
-2. Open your IDE's terminal and run the following command to install the app's external dependencies:
+2. Open your IDE's terminal and run the following command to begin the function:
 
 ```
-npm run i
+npm index.js
 ```
 
-3. Remove .EXAMPLE from the .env file and add your local information
+3. The function will produce a series of prompts in the terminal, asking about aspects of your project and yourself. Fill these out, as you would like them presented within your finished README
 
-4. Run the following command in your SQL terminal:
+4. Once the function is completed, your README will be generated in the folder with the name "yourRepo.md". You can view your readme by right clicking this document, and selecting "Open Preview". You can also make any changes you like to the Markdown document, if you desire.
 
-```
-DROP DATABASE IF EXISTS parsemon_db;
-CREATE DATABASE parsemon_db;
-```
-
-5. Run the following command in your IDE's terminal to seed the database:
-
-```
-npm run seed
-```
-
-6. Run the following command in your IDE's terminal to run the app locally:
-
-```
-npm run start
-```
+5. Copy the text of the Markdown document to your own project.
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Once the app is functional, screenshots will be added in this section.
 
-<!-- Add screenshots using the following format: -->
-<!-- ![Screenshot alt description](directPathOfScreenshots) -->
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-<!-- TODO: Build Roadmap with Cody's Github issues -->
-
-#### MVP
-
-- [ ] Front End
-
-  - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-  - [ ] TCG
-    - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-  - [ ] Random Duel
-    - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-  - [ ] Deck Builder
-    - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-  - [ ] About Us
-    - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-  - [ ] Personal Profile
-    - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-  - [ ] Other User's Profile
-    - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-  - [ ] Random Duel
-    - [ ] Landing Page
-    - [ ] Wireframe
-    - [ ] General Layout
-    - [ ] UI interacting with back end
-    - [ ] Final Styling
-
-- [ ] Milk Men Teamwork
-
-  - [ ] Discuss Wireframes
-  - [ ] Discuss using Figma KanBan for students to see an example of alternative to Github
-  - [ ] Discuss model architecture
-  - [ ] Connect back end to front end
-
-- [ ] Back End
-  - [ ] Models created
-  - [ ] Relations added
-  - [ ] Seeds created
-  - [ ] Seed script running and seeding database
-  - [ ] Other stuff I can't begin to imagine because I hate back end
-
-#### Future Development
-
-- [ ] Add/Remove friends
-- [ ] Chat
-- [ ] Block users
-- [ ] Unique Pokemon Page
-
-See the [open issues](https://github.com/404pandas/Parsemon-Full-Stack/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -300,26 +124,6 @@ See LICENSE.txt for more information.
 
 ## Contact
 
-[Mary Elenius](https://maryelenius.com/d20) - mary.panda.jackson@gmail.com
+[William Allred](https://github.com/AllredW) - allrewil@gmail.com
 
-<!-- TODO- add cody's email if he wants -->
-
-[Cody Chase](https://github.com/404pandas) - [TODO- cody's email will go here]
-
-Project Links:
-
-<!-- TODO- add FIGMA board -->
-
-[Figma Board- link later]()
-
-[Github Repository](https://github.com/404pandas/Parsemon-Full-Stack)
-
-<!-- TODO- add deployment link -->
-
-[Deployment- link later]()
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-Mary would like to give a big shoutout to my partner in crime and daughter, Yennefer! Every day she proves she is small yet mighty! She would also like to thank all of her students in the Spring 2024 UCF Full Stack Bootcamp for being a fantastic cohort!
+[Github Repository](https://github.com/AllredW/readme-generator)
