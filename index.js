@@ -29,8 +29,6 @@ underscore,
 <div align="center">
 
 [![License ${projectLicense}](https://img.shields.io/badge/License-${underscore}-yellow.svg)](https://opensource.org/licenses/${projectLicense})
-[![Issues](https://img.shields.io/github/issues/${userName}/${projectName}.svg?style=plastic&logo=appveyor)](${githubRepo}/issues)
-[![Contributors](https://img.shields.io/github/contributors/${userName}/${projectName}.svg?style=plastic&logo=appveyor)](${githubRepo}/graphs/contributors)
 
 </div>
 
