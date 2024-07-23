@@ -30,16 +30,19 @@ const generateMarkdown = ({
   // [![VS Code](https://img.shields.io/badge/IDE-VSCode-ff0000?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
 
   // </div>
-  `<div align="center">
-[![License: ${projectLicense}](https://img.shields.io/badge/License-${projectLicense}-yellow.svg)](https://opensource.org/licenses/${projectLicense})
-</div>
-  
-  <h3 align="center">${projectName}</h3>
+  `<h3 align="center">${projectName}</h3>
     <p align="center"> ${projectDescription}
     <br />
     <a href="${githubIssues}">Report Bug</a>
     <a href="${githubIssues}">Request Feature</a>
   </p>
+
+
+<div align="center">
+
+![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+</div>
 
   <details>
   <summary>Table of Contents</summary>
