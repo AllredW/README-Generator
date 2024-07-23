@@ -1,5 +1,5 @@
-<h3 align="center">akdsjfalsdjf;asdl</h3>
-    <p align="center"> f;aldsjkf;falskjdf;la
+<h3 align="center"></h3>
+    <p align="center"> 
     <br />
     <a href="undefined">Report Bug</a>
     <a href="undefined">Request Feature</a>
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License ISC-license](https://img.shields.io/badge/License-ISC_license-yellow.svg)](https://opensource.org/licenses/ISC-license)
 
 </div>
 
@@ -37,11 +37,11 @@
 
 ## Usage
 
- <a href="adlkjfa;slkdf">
+ <a href="">
     <img src="" alt="" width="600" height="400">
   </a>
 
-kadjf;alskdjf;aslkdfjas
+
 
 ## Contributing
 
@@ -58,14 +58,14 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the ISC-license license.
 
 See LICENSE.txt for more information.
 
 ## Questions
 If you have any questions about this project, you can contact:
 
-dasdjf;lksdjfaslk: aksldjf;alskdjf;alsdkfj
-Github Profile: https://github.com/dakdsjf;alskfdj
+: 
+Github Profile: https://github.com/
 
-Project Link: [adlkjfa;slkdf](adlkjfa;slkdf)
+Project Link: []()

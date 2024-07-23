@@ -13,7 +13,9 @@ const generateMarkdown = ({
   userEmail,
   mediaLink,
   usageInstructions,
-}) =>
+},
+underscore,
+) =>
   // TO DO
 
   // [![Contributors](https://img.shields.io/github/contributors/404pandas/empty-resources.svg?style=plastic&logo=appveyor)](${githubContrib})
@@ -40,7 +42,7 @@ const generateMarkdown = ({
 
 <div align="center">
 
-![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License ${projectLicense}](https://img.shields.io/badge/License-${underscore}-yellow.svg)](https://opensource.org/licenses/${projectLicense})
 
 </div>
 
@@ -184,7 +186,10 @@ inquirer
   .then((answers) => {
     console.log(answers);
     // Pass inquirer answers to generateMarkdown
-    const markdown = generateMarkdown(answers);
+    console.log(answers.projectLicense);
+    const underscore = answers.projectLicense.split("-").join("_");
+    console.log(underscore);
+    const markdown = generateMarkdown(answers, underscore);
     // Write the Markdown to a file
     fs.writeFile("yourRepo.md", markdown, (err) =>
       err ? console.log(err) : console.log(`Your README has been created! You can find it on the sidebar labelled yourRepo.md!`)
