@@ -15,20 +15,7 @@ const generateMarkdown = ({
 },
 underscore,
 ) =>
-  // TO DO
 
-  // [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](${linkedIn})
-
-  // ### Built With
-
-  // <div align="center">
-
-  // [![Javascript](https://img.shields.io/badge/Language-JavaScript-ff0000?style=plastic&logo=JavaScript&logoWidth=10)](https://javascript.info/)
-  // [![HTML](https://img.shields.io/badge/Language-HTML/CSS-ff8000?style=plastic&logo=HTML5&logoWidth=10)](https://html.com/)
-  // [![homebrew](https://img.shields.io/badge/Tools-Homebrew-80ff00?style=plastic&logo=Homebrew&logoWidth=10)](https://brew.sh/)
-  // [![VS Code](https://img.shields.io/badge/IDE-VSCode-ff0000?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
-
-  // </div>
   `<h3 align="center">${projectName}</h3>
     <p align="center"> ${projectDescription}
     <br />
@@ -104,7 +91,7 @@ Github Profile: https://github.com/${githubName}
 Project Link: [${githubRepo}](${githubRepo})
 `;
 
-// Creates an array of questions for user input
+// Creates an array of questions for user input, values are saved and passed into generateMarkdown() later
 inquirer
   .prompt([
     {
@@ -158,16 +145,11 @@ inquirer
       name: "githubName",
       message: "What is your GitHub username?",
     },
-
-    //   {
-    //     type: "input",
-    //     name: "linkedIn",
-    //     message: "What is the URL your LinkedIn profile?",
-    //   },
   ])
   .then((answers) => {
     console.log(answers);
     // Pass inquirer answers to generateMarkdown
+
 
     // Converts dashes in license name to underscore values, for proper generation of a badge at the top of the document
     const underscore = answers.projectLicense.split("-").join("_");
