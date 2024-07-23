@@ -1,25 +1,22 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-
+// Generates the body of the README, adding in the named values where assigned
+// !!! If you edit this code, you will need to add any named values that will be used into the list below. The function will not execute if it tries to add a value it does not recognise!!!
 const generateMarkdown = ({
   projectName,
   projectDescription,
   projectLicense,
-  githubIssues,
   githubRepo,
   githubName,
   userName,
   userEmail,
-  mediaLink,
   usageInstructions,
 },
 underscore,
 ) =>
   // TO DO
 
-  // [![Contributors](https://img.shields.io/github/contributors/404pandas/empty-resources.svg?style=plastic&logo=appveyor)](${githubContrib})
-  // [![Issues](https://img.shields.io/github/issues/404pandas/empty-resources.svg?style=plastic&logo=appveyor)](${githubIssues})
   // [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](${linkedIn})
 
   // ### Built With
@@ -35,14 +32,16 @@ underscore,
   `<h3 align="center">${projectName}</h3>
     <p align="center"> ${projectDescription}
     <br />
-    <a href="${githubIssues}">Report Bug</a>
-    <a href="${githubIssues}">Request Feature</a>
+    <a href="${githubRepo}/issues">Report Bug</a>
+    <a href="${githubRepo}/issues">Request Feature</a>
   </p>
 
 
 <div align="center">
 
 [![License ${projectLicense}](https://img.shields.io/badge/License-${underscore}-yellow.svg)](https://opensource.org/licenses/${projectLicense})
+[![Issues](https://img.shields.io/github/issues/${userName}/${projectName}.svg?style=plastic&logo=appveyor)](${githubRepo}/issues)
+[![Contributors](https://img.shields.io/github/contributors/${userName}/${projectName}.svg?style=plastic&logo=appveyor)](${githubRepo}/graphs/contributors)
 
 </div>
 
@@ -70,10 +69,10 @@ underscore,
 </details>
 
 ## Usage
-
- <a href="${githubRepo}">
-    <img src="${mediaLink}" alt="" width="600" height="400">
-  </a>
+// If desired, use the following code to generate a screenshot of your application in use. Add the source pathway to the 'src=""', in between the quotes
+//  <a href="${githubRepo}">
+//     <img src="" alt="" width="600" height="400">
+//   </a>
 
 ${usageInstructions}
 
@@ -126,12 +125,6 @@ inquirer
           "Tell us about how to use your project. Do you need to install any features before you can start? Do you need to clone the repository to a personal terminal?",
       },
     {
-      type: "input",
-      name: "mediaLink",
-      message:
-        "Do you have any images of your application in action? Place the pathway to one of them here. (Don't forget to add an alt to the image attributes later!)",
-    },
-    {
       type: "list",
       name: "projectLicense",
       message:
@@ -165,18 +158,7 @@ inquirer
       name: "githubName",
       message: "What is your GitHub username?",
     },
-    //     {
-    //     type: "input",
-    //     name: "githubIssues",
-    //     message:
-    //       "What is the URL to the Issues page in your repo?",
-    //   },
-    //   {
-    //     type: "input",
-    //     name: "githubContrib",
-    //     message:
-    //       "What is the URL to the Contributors page in your repo? (Go to the 'Insights' tab, and select 'Contributors)",
-    //   },
+
     //   {
     //     type: "input",
     //     name: "linkedIn",
@@ -186,9 +168,10 @@ inquirer
   .then((answers) => {
     console.log(answers);
     // Pass inquirer answers to generateMarkdown
-    console.log(answers.projectLicense);
+
+    // Converts dashes in license name to underscore values, for proper generation of a badge at the top of the document
     const underscore = answers.projectLicense.split("-").join("_");
-    console.log(underscore);
+    // Generates the Markdown document, with the input from the inquiry propmpts above
     const markdown = generateMarkdown(answers, underscore);
     // Write the Markdown to a file
     fs.writeFile("yourRepo.md", markdown, (err) =>
