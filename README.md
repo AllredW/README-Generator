@@ -13,7 +13,7 @@
   <h3 align="center">Readme Generator</h3>
 
   <p align="center">
-    This project generates a README file for the user, utilizing Javascript and modules from NPM. The user is prompted to provide information about their project, which is used to pupulate the file that is generated.<br />
+ <br />
     <a href="https://github.com/AllredW/readme-generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -55,12 +55,8 @@
 
 ## About The Project
 
-<!-- Add screenshots using the following format: -->
-<!-- ![Screenshot alt description](directPathOfScreenshots) -->
-
-Pokemon enthusiast app with replica TCG, Random Duel, and Deck Builder built by the instructional staff of the University of Central Florida Coding Bootcamp as an example for students to view.
-This project was built with vanilla JS/CSS/HTML, materialize css, bcrypt, socket.io, draggable.js, GSAP, connect-session-sequelize, dotenv, express, express-handlebars, express-session, pg, sequelize, eslint, eslint-config-prettier, nodemon, and prettier with the help of other assorted third party API's.
-
+   This project creates a README for a project within a Markdown document. The README is made using a template with fillable fields for data relevant to the user and their project. This data is collected from the user via a series of prompts presented in the console terminal, using the NPM Inquirer module.
+   
 ### Built With
 
 <div align="center">
@@ -95,7 +91,9 @@ npm index.js
 
 ## Usage
 
+<video src="./assets/readme-generator-demo-video.webm" width="480" height="360" controls></video>
 
+A link to the demonstration video can also be used here: https://www.youtube.com/watch?v=0EkHbY2YgMM
 
 <!-- CONTRIBUTING -->
 

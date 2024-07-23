@@ -1,7 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+
 // Generates the body of the README, adding in the named values where assigned
+
 // !!! If you edit this code, you will need to add any named values that will be used into the list below. The function will not execute if it tries to add a value it does not recognise!!!
 const generateMarkdown = ({
   projectName,
@@ -15,7 +17,7 @@ const generateMarkdown = ({
 },
 underscore,
 ) =>
-
+// Template Markdown document, used as a base for the README file generated. Adding "`" to the body of this text may cause issues with the generateMarkdown function
   `<h3 align="center">${projectName}</h3>
     <p align="center"> ${projectDescription}
     <br />
@@ -149,7 +151,6 @@ inquirer
   .then((answers) => {
     console.log(answers);
     // Pass inquirer answers to generateMarkdown
-
 
     // Converts dashes in license name to underscore values, for proper generation of a badge at the top of the document
     const underscore = answers.projectLicense.split("-").join("_");
